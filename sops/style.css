@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
+
+
+
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-size: 1000px;
+  background-image: url("https://w0.peakpx.com/wallpaper/369/583/HD-wallpaper-texture-pink-heart-pattern-valentine-paper.jpg");
+  background-position: center center;
+}
+
+.paper {
+  background-image: url("data:image/jpeg;base64,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");
+  background-size: 500px;
+  background-position: center center;
+  padding: 20px 100px;
+/*  min-width: 800px; */
+  
+  transform: rotateZ(-5deg);
+  box-shadow: 1px 15px 20px 0px rgba(0,0,0,0.5);
+  
+  position: absolute;
+}
+
+.paper.heart {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  padding: 0;
+  border-radius: 50%;
+}
+
+.paper.image {
+  padding: 10px;
+}
+.paper.image p {
+  font-size: 30px;
+}
+
+img {
+  max-height: 200px;
+  width: 100%;
+  user-select: none;
+}
+
+.paper.heart::after {
+  content: "";
+  background-image: url('https://cdn.pixabay.com/photo/2016/03/31/19/25/cartoon-1294994__340.png');
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-size: 150px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  opacity: 0.6;
+}
+
+p {
+  font-family: 'Zeyada';
+  font-size: 50px;
+  color: rgb(0,0,100);
+  opacity: 0.75;
+  user-select: none;
+  
+  // filter: drop-shadow(2px 1.5px 1px rgba(0,0,105,0.9));
+}
